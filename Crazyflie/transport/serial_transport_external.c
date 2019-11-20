@@ -15,13 +15,13 @@
 
 bool uxr_init_serial_platform(struct uxrSerialPlatform* platform, int fd, uint8_t remote_addr, uint8_t local_addr)
 {
-    //TODO: For this RTOS is not necessary to initialize nothing here
+    //Not necessary on this platform
     return true;
 }
 
 bool uxr_close_serial_platform(struct uxrSerialPlatform* platform)
 {
-    //TODO Is not necessary to close or open the platform on this fork of freeRTOS
+    //Not necessary on this platform
     return true;
 }
 
